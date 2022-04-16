@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form name="cal_container">
+        <table id="calculator" border="1" align="center" cellpadding="15" cellspacing="12">
+            <tr>
+                <td class="input" colspan="4">
+                    <input class="result_area" type="text" id="display">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="input"><input type="button" class="operator btn" id="plus" value="+"></td>
+                <td class="input"><input type="button" class="operator btn" id="minus" value="-"></td>
+                <td class="input"><input type="button" class="operator btn" id="times" value="x"></td>
+                <td class="input"><input type="button" class="operator btn" id="div" value="/"></td>
+
+            </tr>
+            <tr>
+                <td class="input"><input type="button" class="btn" id="seven" value="7"></td>
+                <td class="input"><input type="button" class="btn" id="eight" value="8"></td>
+                <td class="input"><input type="button" class="btn" id="nine" value="9"></td>
+                <td class="input" rowspan="3">
+                    <input type="button" class="operator btn" id="doit" value="=">
+                </td>
+            </tr>
+            <tr>
+                <td class="input"><input type="button" class="btn" id="four" value="4"></td>
+                <td class="input"><input type="button" class="btn" id="five" value="5"></td>
+                <td class="input"><input type="button" class="btn" id="six" value="6"></td>
+
+            </tr>
+            <tr>
+                <td class="input"><input type="button" class="btn" id="one" value="1"></td>
+                <td class="input"><input type="button" class="btn" id="two" value="2"></td>
+                <td class="input"><input type="button" class="btn" id="three" value="3"></td>
+
+            </tr>
+            <tr>
+                <td class="input"><input type="button" class="btn" id="zero" value="0"></td>
+                <td class="input"><input type="button" class="operator btn" id="dot" value="."></td>
+                <td class="input"><input type="button" class="operator btn" id="clear" value="C"></td>
+                <td class="input"><input type="reset" class="operator btn" id="clearAll"value="AC"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script src="./main.js"></script>
+
+</html>

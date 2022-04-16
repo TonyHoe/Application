@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="content">
+        <div id="calculator">
+            <h2>Chương trình tính tổng</h2>
+            <form action="">
+                <p>
+                    a =
+                    <input class="input" type="text" id="a" placeholder="Nhập giá trị a" />
+                </p>
+                <p>
+                    b =
+                    <input class="input" type="text" id="b" placeholder="Nhập giá trị b" />
+                </p>
+                <p>c = <input class="input" type="text" id="c" readonly /></p>
+                <div id="btn_container">
+                    <input class="btn" type="button" id="btnSum" value="SUM" />
+                    <input class="btn" type="button" id="btnMinus" value="MINUS" />
+                    <input class="btn" type="button" id="btnMultiply" value="MULTIPLY" />
+                    <input class="btn" type="button" id="btnDivide" value="DIVIDE" />
+                    <input class="btn" type="reset" name="btnReset" value="RESET" />
+                </div>
+                <p id="log"></p>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./main.js" defer></script>
+
+</html>
